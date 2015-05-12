@@ -134,7 +134,7 @@ class Author_RSS_Feed_Widget extends WP_Widget {
         echo $args['before_widget'];
 
         if( !empty( $instance['title'] ) ) {
-            echo $args['before_title'] . $instance['title'] . $args['after_title'];
+            echo $args['before_title'] . apply_filters( 'widget_title', $instance['title'], $instance, $this->id_base ) . $args['after_title'];
         }
 
         echo '<ul>';

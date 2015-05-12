@@ -2,7 +2,7 @@
 /*
 Plugin Name:       Author RSS Feed
 Description:       A widget which lets you show different RSS feeds for your authors on their author pages and posts.
-Version:           1.0.1
+Version:           1.0.2
 Author:            Daniel Pataki
 Author URI:        http://danielpataki.com/
 License:           GPLv2 or later
